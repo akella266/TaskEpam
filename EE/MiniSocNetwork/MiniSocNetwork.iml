@@ -27,5 +27,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.47" level="application_server_libraries" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.45-bin" level="project" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="jquery-1.8.3" level="application" />
   </component>
 </module>

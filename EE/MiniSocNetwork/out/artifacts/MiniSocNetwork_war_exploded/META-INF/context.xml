@@ -1,0 +1,10 @@
+<Context path="testWebApp" docBase="testWebApp" crossContext="true" reloadable="true" >
+    <Resource name="jdbc/minisocnetwork" auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="100"
+              maxIdle="30" maxWait="10000"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost/minisocnetwork?characterEncoding=UTF-8"/>
+</Context>

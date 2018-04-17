@@ -5,15 +5,25 @@ public class Gift {
     private long senderId;
     private long receiverId;
     private long giftId;
+    private long text;
 
     public Gift() {
     }
 
-    public Gift(long id, long senderId, long receiverId, long giftId) {
+    public Gift(long id, long senderId, long receiverId, long giftId, long text) {
         this.id = id;
         this.senderId = senderId;
         this.receiverId = receiverId;
         this.giftId = giftId;
+        this.text = text;
+    }
+
+    public long getText() {
+        return text;
+    }
+
+    public void setText(long text) {
+        this.text = text;
     }
 
     public long getId() {
